@@ -28,12 +28,17 @@ textarea {
   background: var(--secondary);
   margin-bottom: 40px;
 }
+.page-main {
+  padding: 0 0 0 20px;
+  margin-bottom: 40px;
+}
 .button {
   background: var(--black);
   color: white;
   border-bottom: none;
   padding: 8px;
   border-radius: 4px;
+  box-shadow: 10px 5px 5px #333;
 }
 .image-fluid {
   width: 100%;
