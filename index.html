@@ -6,24 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tills Website</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet" />
 </head>
 <body>
-    <header id="backtotop">
-        <h1>Till's website</h1>
+    <header class="page-header">
+        <h1 id="backtotop">Till's website</h1>
         <nav>
-            <a href="#contact">Contact</a>
-            <a href="#biography">Biography</a>
+            <a class="button" href="#contact">Contact</a>
+            <a class="button" href="#biography">Biography</a>
         </nav>
-        <img src="./images/till-sitzsack.png" alt="Till">
+        
+        <figure>
+            <img class="image-fluid" src="./images/till-sitzsack.png" alt="" style="padding-top: 20px;">
+            <figcaption>Moin, ich bin Till.
+                Die letzten Jahre habe ich als Senior PreSales Manager für die Firma Facelift gearbeitet,
+                bis ich im Februar 2020 die Position als Vertriebsleiter / Head of Sales bei der Firma El Origen übernommen habe.
+                Leider war diese Erfahrung sehr kurz, denn durch die Corona Pandemie, mussten wir kurzzeitig den kompletten Vertrieb
+                auf 0 setzen. Nach 3 Monaten Kurzarbeit folgte dann das Ende dieser Laufbahn.
+                Die Zeit danach habe ich dann erst einmal genutzt, mich neu zu orientieren. Was will ich, was kann ich und vor allem:
+                Wo soll es hingehen... Nach einem Individualcoaching, stellte sich schnell meine Kernkompetenz in den Vordergrund:
+                Der Umgang mit Computern und das lösen von Problemen. Man fragte mich vor ein paar Jahren, was ich gerne werden würde,
+                wenn ich noch einmal von 0 anfangen könnte. Ich antwortete sofort: Programmierer! Leider wusste ich damals noch nicht,
+                dass es Institutionen wie "Neue Fische" gibt, die einem den Einstieg in diese vielfälltige Materie in kürzester Zeit
+                ermöglichen. Lange Rede kurzer Sinn... Ich bin durch meine direkte und simple Suche bei Google: "wie werde ich Programmierer"
+                auf Neue Fische gestoßen und bin überglücklich, dass ich mit offenen Armen empfangen wurde und hier nun den Beruf als Web Developer
+                erlernen kann.
+            </figcaption>
+        </figure>    
     </header>
-    <section class="interests">
+    <main class="page-main">
+     <section class="interests">
         <h2>Interests</h2>
 <ul>
     <li>Gaming</li>
     <li>Coding</li>
     <li>Reisen</li>
 </ul>
-</section>
+     </section>
 <section class="skills">
 <h2>Skills</h2>
 <ul>
@@ -59,5 +81,6 @@
     </section>
 
 </section>
+    </main>
 </body>
 </html>

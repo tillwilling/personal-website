@@ -1,21 +1,41 @@
 * {
   box-sizing: border-box;
 }
-
 :root {
   --primary: hotpink;
   --black: #333;
+  --secondary: papayawhip;
 }
-
 body {
-  font-family: sans-serif;
-  font-size: 112, 5%;
-  line-height: 1.4;
   color: var(--black);
+  font-family: sans-serif;
+  font-size: 112.5%;
+  line-height: 1.4;
+  margin: 0;
 }
-
+a {
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
 input,
 button,
 textarea {
   font-size: inherit;
+}
+.page-header {
+  padding: 20px;
+  background: var(--secondary);
+  margin-bottom: 40px;
+}
+.button {
+  background: var(--black);
+  color: white;
+  border-bottom: none;
+  padding: 8px;
+  margin: 0 0 10px 0;
+  border-radius: 4px;
+}
+.image-fluid {
+  width: 100%;
+  height: auto;
 }
