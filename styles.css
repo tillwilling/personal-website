@@ -14,6 +14,10 @@ body {
   line-height: 1.4;
   margin: 0;
 }
+dt {
+  font: small-caps bold 20px/1 sans-serif;
+  color: var(--black);
+}
 a {
   text-decoration: none;
 }
