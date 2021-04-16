@@ -44,8 +44,13 @@ textarea {
   box-shadow: 10px 5px 5px #333;
 }
 .image-fluid {
-  width: 100%;
+  width: 440px;
+  max-width: 100%;
   height: auto;
+}
+figcaption {
+  width: 440px;
+  max-width: 100%;
 }
 .interests {
 }
