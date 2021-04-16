@@ -16,7 +16,6 @@ body {
 }
 a {
   text-decoration: none;
-  border-bottom: 2px solid;
 }
 input,
 button,
@@ -45,4 +44,8 @@ textarea {
   height: auto;
 }
 .interests {
+}
+.links {
+  display: grid;
+  text-decoration: none;
 }
