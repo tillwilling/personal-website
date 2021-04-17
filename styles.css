@@ -52,7 +52,7 @@ textarea {
 .button-light {
   padding-bottom: 100px;
 }
-img {
+img.image-fluid {
   border-radius: 5px 130px 5px 50px;
 }
 .image-fluid {
