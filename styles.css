@@ -96,7 +96,6 @@ figcaption {
     flex-direction: row;
   }
 }
-
 @media only screen and (min-width: 600px) {
   #flexbox-links {
     flex-direction: row;
