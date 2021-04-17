@@ -46,6 +46,9 @@ textarea {
   border-radius: 4px;
   box-shadow: 10px 5px 5px #333;
 }
+img {
+  border-radius: 4px;
+}
 .image-fluid {
   width: 440px;
   max-width: 100%;
