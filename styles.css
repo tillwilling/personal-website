@@ -23,6 +23,7 @@ h2 {
 dt {
   font: small-caps bold 20px/1 'Spartan', sans-serif;
   color: var(--black);
+  padding-top: 10px;
 }
 a {
   text-decoration: none;
