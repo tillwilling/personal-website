@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 :root {
   --primary: hotpink;
@@ -9,7 +12,7 @@
 body {
   background-color: white;
   color: var(--black);
-  font-family: 'ubuntu+mono';
+  font-family: 'Spartan', sans-serif;
   font-size: 112.5%;
   line-height: 1.4;
   margin: 0;
@@ -18,7 +21,7 @@ h2 {
   max-width: 100%;
 }
 dt {
-  font: small-caps bold 20px/1 sans-serif;
+  font: small-caps bold 20px/1 'Spartan', sans-serif;
   color: var(--black);
 }
 a {
@@ -46,6 +49,9 @@ textarea {
   border-radius: 4px;
   box-shadow: 10px 5px 5px #333;
 }
+.button-light {
+  padding-bottom: 100px;
+}
 img {
   border-radius: 5px 130px 5px 50px;
 }
@@ -59,11 +65,25 @@ figcaption {
   max-width: 100%;
 }
 .interests {
+  padding-bottom: 20px;
+}
+.skills {
+  padding-bottom: 20px;
+}
+.contact {
+  padding-bottom: 20px;
 }
 .links {
   display: grid;
   text-decoration: none;
   flex: auto;
+  padding-top: 20px;
+}
+.biography {
+  padding-bottom: 20px;
+}
+.cv {
+  padding-top: 20px;
 }
 #flexbox-links {
   display: flex;
