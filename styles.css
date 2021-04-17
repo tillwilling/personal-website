@@ -46,14 +46,14 @@ textarea {
   background: var(--black);
   color: white;
   border-bottom: none;
-  padding: 8px;
+  padding: 7px;
   border-radius: 4px;
 }
 .button-light {
   padding-bottom: 100px;
 }
 img.image-fluid {
-  border-radius: 5px 130px 5px 50px;
+  border-radius: 5px 50px 5px 50px;
 }
 .image-fluid {
   width: 440px;
@@ -93,7 +93,7 @@ figcaption {
 }
 @media only screen and (max-width: 599px) {
   #flexbox-links {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
