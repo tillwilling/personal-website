@@ -34,6 +34,7 @@ dd {
 }
 a {
   text-decoration: none;
+  font-weight: 800;
 }
 input,
 button,
@@ -43,6 +44,7 @@ textarea {
 .page-header {
   padding: 20px;
   background: var(--secondary);
+  border-bottom: 2px solid grey;
   margin-bottom: 40px;
   position: sticky;
   top: 0;
@@ -75,6 +77,7 @@ figcaption {
   max-width: 100%;
 }
 .interests {
+  padding-top: 5px;
   padding-bottom: 20px;
 }
 .skills {
@@ -93,7 +96,7 @@ figcaption {
   padding-bottom: 20px;
 }
 .cv {
-  padding-top: 20px;
+  padding-top: 5px;
 }
 #flexbox-links {
   display: flex;
