@@ -1,13 +1,16 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   -webkit-font-smoothing: antialiased;
 }
 :root {
   --primary: hotpink;
   --black: #333;
   --secondary: white;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: papayawhip;
 }
 body {
   background-color: white;
@@ -19,10 +22,14 @@ body {
 }
 h2 {
   max-width: 100%;
+  margin: 20px 0 20px 0;
 }
 dt {
   font: small-caps bold 20px/1 'Spartan', sans-serif;
   color: var(--black);
+  padding-top: 15px;
+}
+dd {
   padding-top: 10px;
 }
 a {
@@ -37,9 +44,12 @@ textarea {
   padding: 20px;
   background: var(--secondary);
   margin-bottom: 40px;
+  position: sticky;
+  top: 0;
+  background-color: papayawhip;
 }
 .page-main {
-  padding: 0 0 0 20px;
+  padding: 0 20px 0 20px;
   margin-bottom: 40px;
 }
 .button {
@@ -93,7 +103,7 @@ figcaption {
 }
 @media only screen and (max-width: 599px) {
   #flexbox-links {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 @media only screen and (min-width: 600px) {
