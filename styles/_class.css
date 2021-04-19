@@ -20,13 +20,17 @@
 .button-light {
   padding-bottom: 100px;
 }
-img.image-fluid {
+.portrait {
   border-radius: 120px 15px 120px 15px;
+  max-width: 100%;
 }
 .image-fluid {
   width: 440px;
   max-width: 100%;
+  display: block;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .interests {
   padding-bottom: 20px;
