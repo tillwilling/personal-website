@@ -33,7 +33,7 @@ dd {
 a {
   text-decoration: none;
   font-weight: 800;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 input,
 button,
@@ -103,7 +103,7 @@ figcaption {
   column-gap: 20px;
   flex-direction: row;
 }
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 399px) {
   #flexbox-links {
     flex-direction: column;
   }
