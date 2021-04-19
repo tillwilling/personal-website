@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --black: #333;
+}
+header {
+  position: fixed;
+  top: 0;
+  background-color: papayawhip;
+}
+body {
+  background-color: white;
+  color: var(--black);
+  font-family: 'Spartan', sans-serif;
+  font-size: 112.5%;
+  line-height: 1.4;
+  margin: 0;
+}
+h2 {
+  max-width: 100%;
+  margin: 20px 0 20px 0;
+}
+dt {
+  font: small-caps bold 20px/1 'Spartan', sans-serif;
+  color: var(--black);
+  padding-top: 15px;
+}
+dd {
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+input,
+button,
+textarea {
+  font-size: inherit;
+}
+figcaption {
+  width: 440px;
+  max-width: 100%;
+}
