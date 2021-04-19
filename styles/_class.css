@@ -7,10 +7,6 @@
   top: 0;
   background-color: papayawhip;
 }
-.page-main {
-  padding: 0 20px 0 20px;
-  margin-bottom: 40px;
-}
 .button {
   background: var(--black);
   color: white;
