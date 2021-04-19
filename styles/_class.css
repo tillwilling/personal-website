@@ -40,10 +40,11 @@
 }
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
 }
 .contact {
-  padding-bottom: 20px;
+  margin-top: 80px;
 }
 .links {
   display: grid;

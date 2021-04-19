@@ -47,6 +47,9 @@ figcaption {
   width: 440px;
   max-width: 100%;
 }
+footer {
+  margin-top: 40px;
+}
 @media only screen and (max-width: 399px) {
   #flexbox-links {
     flex-direction: column;
