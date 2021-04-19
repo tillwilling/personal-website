@@ -11,7 +11,7 @@ main {
 header {
   position: fixed;
   top: 0;
-  background-color: papayawhip;
+  background-color: var(--black);
 }
 body {
   background-color: white;
