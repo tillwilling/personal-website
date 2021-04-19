@@ -14,6 +14,7 @@
     height: 0px !important;
     position: absolute;
     margin: -210px;
+    padding-left: 10px;
   }
 #contact {
     visibility: hidden;
