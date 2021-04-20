@@ -1,117 +1,262 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tills Website</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Spartan&family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Spartan&family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="page-header">
-        <h1>Till Willing</h1>
-        <nav>
-            <a class="button" href="#contact">Kontakt</a>
-            <a class="button" href="#biography">Über mich</a>
-            <a class="button" href="#cv">C V</a>
-        </nav>
+      <h1>Till Willing</h1>
+      <nav>
+        <a class="button" href="#contact">Kontakt</a>
+        <a class="button" href="#biography">Über mich</a>
+        <a class="button" href="#cv">C V</a>
+      </nav>
     </header>
-    <main class="page-main" id="backtotop">
-     <section>
-        <figure>
-        <img class="image-fluid" src="images/till_portrait.jpg" alt="" style="margin-top: 18px;">
-             <figcaption>Moin, ich bin Till, 1981 in Hamburg geboren und derzeit lerne ich Web Development bei Neue Fische<br/>
-             </figcaption>
-        </figure> 
-    </section>
+    <div id="backtotop"></div>
+    <main>
+      <section>
+        <figure class="image-fluid">
+          <img class="portrait" src="images/till_portrait.jpg" alt="" />
+          <figcaption>
+            Moin, ich bin Till, 1981 in Hamburg geboren und derzeit lerne ich
+            Web Development bei Neue Fische<br />
+          </figcaption>
+        </figure>
+      </section>
+      <div class="grid">
         <section class="interests">
-        <h2>Interessen</h2>
-<ul>
-    <li>Reisen</li>
-    <li>Gaming</li>
-    <li>Coding</li>
-    <li>Freeletics/Kraftsport</li>
-    <li>Vegan Food & Lifestyle</li>
-    <li>Umweltschutz</li>
-    <li>Norwegen</li>
-    <li>Schweden</li>
-</ul>
-     </section>
-<section class="skills">
-<h2>Skills</h2>
-<ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li id="contact">Salesforce</li>
-    <li>pipedrive</li>
-    <li>Win/MacOS</li>
-    <li>Android</li>
-    <li>Business Development</li>
-</ul>
-</section>
-<adress>
-<h2>Kontakt</h2>
-    Till Willing<br/>
-    <a class="button-light" href="mailto:tillwilling@gmail.com" title="Mail me">Schreib mich an</a>
-</adress>
-</section>
-<section id="biography" class="links">
-    <h2>Hier können Sie sich mit mir vernetzen:</h2>
-    <div id="flexbox-links">
-<a href="https://github.com/tillwilling" rel="noopener noreferrer" target="_blank"><img src="images/github_icon.png" title="Go to Till's GitHub-Profile" alt="Visit my GitHub-Profile"></a>
-<a href="https://codepen.io/till-willing" rel="noopener noreferrer" target="_blank"><img src="images/codepen_icon.png" title="Go to Till's Codepen-Profile" alt="Visit my Codepen-Profile"></a>
-<a href="https://www.xing.com/profile/Till_Willing/portfolio" rel="noopener noreferrer" target="_blank"><img src="images/xing_icon.png" title="Go to Till's Xing-Profile" alt="Visit my Xing-Profile"></a>
-<a href="https://www.linkedin.com/in/till-willing-42a052a4/" rel="noopener noreferrer" target="_blank"><img src="images/linkedin_icon.png" title="Go to Till's LinkedIn-Profile" alt="Visit my LinkedIn-Profile"></a>
-    </div>
-</section>
-<section>
-    <h2>Über mich</h2>
-    <p>Die letzten Jahre habe ich hauptsächlich als Senior PreSales Manager für die Firma <a href="https://facelift-bbt.com/de/" rel="noopener noreferrer" target="_blank">Facelift</a> gearbeitet,
-        bis ich im Februar 2020 die Position als Vertriebsleiter / Head of Sales bei der Firma <a href="https://www.elorigenfood.de/" rel="noopener noreferrer" target="_blank">El Origen </a>übernommen habe.
-        Leider war diese Erfahrung aufgrund der Corona-Pandemie sehr kurz.
-        Die Zeit danach habe ich dann erst einmal genutzt, mich neu zu orientieren.
-        Was will ich, was kann ich und vor allem: Wo soll es hingehen... Nach einem Individualcoaching, stellte sich schnell meine Kernkompetenz in den Vordergrund:
-        Der Umgang mit Computern und das lösen von Problemen. Man fragte mich vor ein paar Jahren, was ich gerne werden würde,
-        wenn ich noch einmal von 0 anfangen könnte. Ich antwortete sofort: Programmierer! Leider wusste ich damals noch nicht,
-        dass es Institutionen wie "Neue Fische" gibt, die einem den Einstieg in diese vielfälltige Materie in kürzester Zeit
-        ermöglichen. Lange Rede kurzer Sinn... Ich bin durch meine direkte und simple Suche bei Google: "wie werde ich Programmierer"
-        auf <a href="https://www.neuefische.de/" rel="noopener noreferrer" target="_blank">Neue Fische</a> gestoßen und bin überglücklich, dass ich mit offenen Armen empfangen wurde und hier nun den Beruf als Web Developer
-        erlernen kann.</p>
-</section>
-    <section class="cv">
-      <h2>C V</h2>
+          <h2>Interessen</h2>
+          <ul>
+            <li>Reisen</li>
+            <li>Gaming</li>
+            <li>Coding</li>
+            <li>Freeletics/Kraftsport</li>
+            <li>Vegan Food & Lifestyle</li>
+            <li>Umweltschutz</li>
+            <li>Norwegen</li>
+            <li>Schweden</li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Salesforce</li>
+            <li>pipedrive</li>
+            <li>Win/MacOS</li>
+            <li>Android</li>
+            <li>Business Development</li>
+          </ul>
+        </section>
+      </div>
+      <section class="links">
+        <h2>Lass uns vernetzen:</h2>
+        <div id="flexbox-links">
+          <a
+            href="https://github.com/tillwilling"
+            rel="noopener noreferrer"
+            target="_blank"
+            ><img
+              src="images/github_icon.png"
+              title="Go to Till's GitHub-Profile"
+              alt="Visit my GitHub-Profile"
+          /></a>
+          <a
+            href="https://codepen.io/till-willing"
+            rel="noopener noreferrer"
+            target="_blank"
+            ><img
+              src="images/codepen_icon.png"
+              title="Go to Till's Codepen-Profile"
+              alt="Visit my Codepen-Profile"
+          /></a>
+          <a
+            href="https://www.xing.com/profile/Till_Willing/portfolio"
+            rel="noopener noreferrer"
+            target="_blank"
+            ><img
+              src="images/xing_icon.png"
+              title="Go to Till's Xing-Profile"
+              alt="Visit my Xing-Profile"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/till-willing-42a052a4/"
+            rel="noopener noreferrer"
+            target="_blank"
+            ><img
+              src="images/linkedin_icon.png"
+              title="Go to Till's LinkedIn-Profile"
+              alt="Visit my LinkedIn-Profile"
+          /></a>
+        </div>
+      </section>
+      <section>
+        <div id="biography"></div>
+        <h2>Über mich</h2>
+        <p>
+          Die letzten Jahre habe ich hauptsächlich als Senior PreSales Manager
+          für die Firma
+          <a
+            href="https://facelift-bbt.com/de/"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Facelift</a
+          >
+          gearbeitet, bis ich im Februar 2020 die Position als Vertriebsleiter /
+          Head of Sales bei der Firma
+          <a
+            href="https://www.elorigenfood.de/"
+            rel="noopener noreferrer"
+            target="_blank"
+            >El Origen </a
+          >übernommen habe. Leider war diese Erfahrung aufgrund der
+          Corona-Pandemie sehr kurz. Die Zeit danach habe ich dann erst einmal
+          genutzt, mich neu zu orientieren. Was will ich, was kann ich und vor
+          allem: Wo soll es hingehen... Nach einem Individualcoaching, stellte
+          sich schnell meine Kernkompetenz in den Vordergrund: Der Umgang mit
+          Computern und das lösen von Problemen. Man fragte mich vor ein paar
+          Jahren, was ich gerne werden würde, wenn ich noch einmal von 0
+          anfangen könnte. Ich antwortete sofort: Programmierer! Leider wusste
+          ich damals noch nicht, dass es Institutionen wie
+          <a
+            href="https://www.neuefische.de/"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Neue Fische</a
+          >
+          gibt, die einem den Einstieg in diese vielfälltige Materie in
+          kürzester Zeit ermöglichen. Lange Rede kurzer Sinn... Ich bin durch
+          meine direkte und simple Suche bei Google: "wie werde ich
+          Programmierer" auf
+          <a
+            href="https://www.neuefische.de/"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Neue Fische</a
+          >
+          gestoßen und bin überglücklich, dass ich mit offenen Armen empfangen
+          wurde und hier nun den Beruf als Web Developer erlernen kann.
+        </p>
+      </section>
+      <div id="cv"></div>
+      <section class="cv">
+        <h2>C V</h2>
         <dl>
-            <dt>04/2021-Jetzt</dt>
-            <dd>Student Web Developer bei <a href="https://www.neuefische.de/" rel="noopener noreferrer" target="_blank">Neue Fische GmbH</a></dd>
-            <dt>02/2020-06/2020</dt>
-            <dd>Head of Sales bei <a href="https://www.elorigenfood.de/" rel="noopener noreferrer" target="_blank">el origen food GmbH</a></dd>
-            <dt>01/2016-02/2020</dt>
-            <dd>Senior PreSales Specialist bei <a href="https://facelift-bbt.com/de/" rel="noopener noreferrer" target="_blank">facelift brand building technologies GmbH</a></dd>
-            <dt>09/2014-01/2016</dt>
-            <dd>Busines Development Manager bei <a href="https://get.facelift-bbt.com/de/blog/de/facelift-uebernimmt-socialbench" rel="noopener noreferrer" target="_blank">socialBench GmbH</a></dd>
-            <dt>05/2014-09/2014</dt>
-            <dd>Einrichtungsberater bei <a href="https://www.hoeffner.de/" rel="noopener noreferrer" target="_blank">Höffner Möbelgesellschaft GmbH & Co. KG</a></dd>
-            <dt>02/2011-02/2014</dt>
-            <dd>Allgemeine Verwaltung bei <a href="https://www.spiegelgruppe.de/" rel="noopener noreferrer" target="_blank">SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG</a></dd>
-            <dt>2008-2010</dt>
-            <dd>Verkäufer bei <a href="https://www.dehner.de/" rel="noopener noreferrer" target="_blank">Dehner GmbH & Co. KG</a></dd>
-            <dt>2007-2008</dt>
-            <dd>Tierpflege Aquaristik bei <a href="https://li.hamburg.de/zsu/" rel="noopener noreferrer" target="_blank">Zentrum für Schulbiologie und Umwelterziehung</a></dd>
-            <dt>2005-2007</dt>
-            <dd>Stellvertretende Filialleitung bei ZooHaus Niendorf</dd>
-            <dt>2002-2005</dt>
-            <dd>Ausbildung zum Kaufmann im Einzelhandel bei ZooHaus Niendorf</dd>
-            <dt>1997-1999</dt>
-            <dd>Ausbildung zum Kaufmann im Einzelhandel bei Brinkmann KG</dd>
+          <dt>04/2021-Jetzt</dt>
+          <dd>
+            Student Web Developer bei
+            <a
+              href="https://www.neuefische.de/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Neue Fische GmbH</a
+            >
+          </dd>
+          <dt>02/2020-06/2020</dt>
+          <dd>
+            Head of Sales bei
+            <a
+              href="https://www.elorigenfood.de/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >el origen food GmbH</a
+            >
+          </dd>
+          <dt>01/2016-02/2020</dt>
+          <dd>
+            Senior PreSales Specialist bei
+            <a
+              href="https://facelift-bbt.com/de/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >facelift brand building technologies GmbH</a
+            >
+          </dd>
+          <dt>09/2014-01/2016</dt>
+          <dd>
+            Busines Development Manager bei
+            <a
+              href="https://get.facelift-bbt.com/de/blog/de/facelift-uebernimmt-socialbench"
+              rel="noopener noreferrer"
+              target="_blank"
+              >socialBench GmbH</a
+            >
+          </dd>
+          <dt>05/2014-09/2014</dt>
+          <dd>
+            Einrichtungsberater bei
+            <a
+              href="https://www.hoeffner.de/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Höffner Möbelgesellschaft GmbH & Co. KG</a
+            >
+          </dd>
+          <dt>02/2011-02/2014</dt>
+          <dd>
+            Allgemeine Verwaltung bei
+            <a
+              href="https://www.spiegelgruppe.de/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG</a
+            >
+          </dd>
+          <dt>2008-2010</dt>
+          <dd>
+            Verkäufer bei
+            <a
+              href="https://www.dehner.de/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Dehner GmbH & Co. KG</a
+            >
+          </dd>
+          <dt>2007-2008</dt>
+          <dd>
+            Tierpflege Aquaristik bei
+            <a
+              href="https://li.hamburg.de/zsu/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Zentrum für Schulbiologie und Umwelterziehung</a
+            >
+          </dd>
+          <dt>2005-2007</dt>
+          <dd>Stellvertretende Filialleitung bei ZooHaus Niendorf</dd>
+          <dt>2002-2005</dt>
+          <dd>Ausbildung zum Kaufmann im Einzelhandel bei ZooHaus Niendorf</dd>
+          <dt>1997-1999</dt>
+          <dd>Ausbildung zum Kaufmann im Einzelhandel bei Brinkmann KG</dd>
         </dl>
-    </section>
-            <footer>
-               <a href="#backtotop">Back to top</a>
-            </footer>
-</section>
+      </section>
+      <footer>
+        <a href="#backtotop" class="backtotop"
+          ><img src="./images/up_icon.png" alt=""
+        /></a>
+        <adress>
+          <div id="contact"></div>
+          <h2>Kontakt</h2>
+          Till Willing<br />
+          <a
+            class="button-light"
+            href="mailto:tillwilling@gmail.com"
+            title="Mail me"
+            >Schreib mich an</a
+          >
+        </adress>
+      </footer>
     </main>
-</body>
+  </body>
 </html>

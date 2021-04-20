@@ -1,0 +1,36 @@
+@import './_base.css';
+@import './_class.css';
+* {
+  -webkit-font-smoothing: antialiased;
+}
+#flexbox-links {
+  display: flex;
+  height: auto;
+  column-gap: 20px;
+  flex-direction: row;
+}
+#backtotop {
+    visibility: hidden;
+    height: 0px !important;
+    position: absolute;
+    margin: -210px;
+  }
+#contact {
+    visibility: hidden;
+    height: 0px !important;
+    position: absolute;
+    margin: -155px;
+  }
+#biography {
+  visibility: hidden;
+    height: 0px !important;
+    position: absolute;
+    margin: -180px;
+}
+#cv {
+  visibility: hidden;
+    height: 0px !important;
+    position: absolute;
+    margin: -150px;
+}
+}

@@ -1,0 +1,77 @@
+.page-header {
+  padding: 20px;
+  color: white;
+  background: var(--black);
+  border-bottom: 2px solid #FBB03B;
+  margin-bottom: 40px;
+  position: sticky;
+  top: 0;
+  background-color: #FBB03B;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  opacity: 0.8;
+}
+.button {
+  background: var(--black);
+  color: white; IM !important
+  border-bottom: none;
+  padding: 7px;
+  border-radius: 4px;
+}
+.button-light {
+  padding-bottom: 100px;
+}
+.portrait {
+  border-radius: 120px 15px 120px 15px;
+  max-width: 100%;
+}
+.image-fluid {
+  width: 440px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.interests {
+}
+.skills {
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.contact {
+  margin-top: 80px;
+}
+.links {
+  display: grid;
+  text-decoration: none;
+  flex: auto;
+}
+.biography {
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.cv {
+  padding-top: 5px;
+}
+.backtotop {
+    opacity: 0.6;
+    text-align: center;
+    background: #FBB03B; /* Hintergrundfarbe */
+    text-decoration: none;
+    position: fixed;
+    z-index: 99999;
+    bottom: 10px;
+    right: 0px;
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    cursor: pointer;
+    font-size: 15px; /* Icongröße */
+    padding: 10px 5px 5px 15px;
+}
